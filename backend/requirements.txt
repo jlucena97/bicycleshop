@@ -1,0 +1,6 @@
+# requirements.txt
+Flask==3.0.2
+Flask-SQLAlchemy==3.1.1
+Flask-RESTful==0.3.10
+python-dotenv==1.0.0
+flask_cors==3.0.10
