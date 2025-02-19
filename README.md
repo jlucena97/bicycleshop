@@ -1,6 +1,6 @@
 # 🚴 Bikeshop Project
 
-# ALERT!!
+## Alert!!
 The seeder script populates the database during application initialization but does not account for prohibited combinations, as this improvement was not within the original scope.
 So original bicycles may load with a prohibited combination
 
