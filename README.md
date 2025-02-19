@@ -1,5 +1,9 @@
 # 🚴 Bikeshop Project
 
+# ALERT!!
+The seeder script populates the database during application initialization but does not account for prohibited combinations, as this improvement was not within the original scope.
+So original bicycles may load with a prohibited combination
+
 ## 📌 Project Overview
 Bikeshop is a full-stack web application designed for managing bike sales and inventory. It consists of a **frontend** (React using Vite) and a **backend** (Python with Flask), both containerized with Docker and managed using Docker Compose. The database used is **SQLite** for simplicity and ease of setup.
 
@@ -127,5 +131,4 @@ Each of these models is related in some way but remains independently manageable
     - `CreateProduct` for managing products and options.
     - `ListProductPage` for listing all products and their configurations.
 - **App.tsx** contains the Router and the main menu.
-
 
