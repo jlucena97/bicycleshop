@@ -35,7 +35,7 @@ Ensure you have the following installed:
 ### 2️⃣ Clone the Repository
 ```sh
 git clone https://github.com/jlucena97/bicycleshop
-cd bikeshop
+cd bicycleshop
 ```
 
 ### 3️⃣ Running the Application
